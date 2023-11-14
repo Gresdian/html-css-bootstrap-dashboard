@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
+header{
+    height: 70px;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+}
+
+.warning{
+    color: #ff8f00;
+    width: 100%;
+}
+
+/* MAIN */
+main{
+    height: 100vh;
+}
+
+#top-content{
+    display: flex;
+    background-color: green;
+    height: 100%;
+}
+#sidebar{
+    width: 60px;
+    background-color: #12283f;
+    background-image: url("./img/sidebar-bg.png");
+}
+
