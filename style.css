@@ -51,4 +51,26 @@ ul li{
     margin: 8px 0;
 }
 
+#content{
+    background-color: red;
+    width: 100%;
+    margin-top: 70px;
+    overflow-y: auto;
+}
 
+
+.content-up{
+    height: 30%;
+    background-color: orange;
+}
+
+.content-down{
+    height: 70%;
+    background-color: darkorchid;
+}
+
+.red{
+    background-color: red;
+    height: 100%;
+    border: 1px dashed black;
+}
