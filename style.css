@@ -4,12 +4,19 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+/* COMMON */
+.white-background{
+    background-color: white;
+}
 /* HEADER */
 header{
     height: 70px;
-    background-color: antiquewhite;
     position: fixed;
     width: 100%;
+}
+
+.logo-content{
+    max-width: 60px;
 }
 
 .warning{
@@ -31,5 +38,17 @@ main{
     width: 60px;
     background-color: #12283f;
     background-image: url("./img/sidebar-bg.png");
+    margin-top: 70px;
 }
+
+ul{
+    list-style: none;
+    color: white;
+    padding:24px 36px;
+}
+
+ul li{
+    margin: 8px 0;
+}
+
 

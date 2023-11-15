@@ -10,28 +10,33 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
-        <div class="container-fluid">
-            <div class="row align-items-center my-1">
+    <header class="white-background">
+        <div class="container-fluid g-0">
+            <div class="row align-items-center my-1 white-background">
                 <div class="col-2">
                     <div class="logo-content">
                         <img class="img-fluid" src="./img/mobile-logo.png" alt="logo">
                     </div>
                 </div>
                 <div class="col-8">
-                    <nav class="navbar bg-body-tertiary">
+                    <nav class="navbar">
                         <form class="container-fluid">
                           <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text" id="basic-addon1 border-end-0"><i class="fas fa-magnifying-glass"></i></span>
+                            <input type="text" class="form-control border-start-0 bg-body-tertiary" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                           </div>
                         </form>
                       </nav>
                 </div>
                 <div class="col-2 text-center">
-                    <div>
-                        <i class="fas fa-bell warning"></i>
-                    </div>
+                    <div class="dropdown">
+                        <i class="fas fa-bell warning btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
                 </div>
             </div>
         </div>
@@ -39,7 +44,22 @@
     <!-- MAIN -->
     <main>
         <div id="top-content">
-            <div id="sidebar"></div>
+            <div id="sidebar">
+                <div class="container d-flex align-items-center flex-column ">
+                    <div class="icon-list">
+                        <ul>
+                           <li><i class="fas fa-house"></i></li>
+                           <li><i class="fas fa-chart-simple"></i></li>
+                           <li><i class="fas fa-signal"></i></li> 
+                        </ul>
+                    </div>
+                    <div class="icon-list">
+                        <ul>
+                            <li><i class="fas fa-gear"></i></li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
             <div id="content"></div>
         </div>
     </main>
